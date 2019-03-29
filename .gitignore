@@ -1,0 +1,9 @@
+﻿bin
+obj
+logs
+packages
+*.suo
+*.log
+package-lock.json
+.vs
+*.user
