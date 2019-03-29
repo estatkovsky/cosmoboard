@@ -62,7 +62,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "cosmo-angular:build"
+            "browserTarget": "cosmo-angular:build",
+            "port": 8080
           },
           "configurations": {
             "production": {

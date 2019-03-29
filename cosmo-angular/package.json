@@ -1,6 +1,6 @@
 {
-  "name": "cosmo-angular",
-  "version": "0.0.0",
+  "name": "@es/cosmo-angular",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -44,5 +44,8 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
     "typescript": "~3.2.2"
+  },
+  "publishConfig": {
+    "registry": "http://localhost:4873/"
   }
 }
