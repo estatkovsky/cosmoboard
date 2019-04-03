@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HomeComponent } from './home/home.component';
+import { AuthComponent } from './auth/auth.component';
 import { OidcCallbackComponent } from './oidc-callback/oidc-callback.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: '', component: AuthComponent },
   { path: 'oidc-callback', component: OidcCallbackComponent }
 ];
 

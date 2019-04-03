@@ -1,6 +1,5 @@
+<app-navbar></app-navbar>
 <div>
-  <button type="button" (click)="login()" [disabled]="isAuthenticated">Login</button>
-  <button type="button" (click)="callApi()" [disabled]="!isAuthenticated">Call API</button>
-  <button type="button" (click)="logout()" [disabled]="!isAuthenticated">Logout</button>
+  <button type="button" (click)="callApi()">Call API</button>
 </div>
 <pre>{{data}}</pre>
