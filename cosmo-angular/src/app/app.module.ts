@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { OidcCallbackComponent } from './oidc-callback/oidc-callback.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    OidcCallbackComponent
+    OidcCallbackComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
